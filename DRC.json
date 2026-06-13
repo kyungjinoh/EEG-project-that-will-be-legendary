@@ -1,0 +1,2314 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-12T17:38:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "EEG_BLE.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U1-VREFN)] of C23 on Front",
+                    "pos": {
+                        "x": 36.35,
+                        "y": 94.0
+                    },
+                    "uuid": "133cbd47-2160-48bf-8212-0ce3420e5ccf"
+                },
+                {
+                    "description": "Track [Net-(U1-VREFN)] on Front, length 0.5600 mm",
+                    "pos": {
+                        "x": 36.25,
+                        "y": 106.59
+                    },
+                    "uuid": "363a6db4-91da-47ee-8b54-8052ad7cf283"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-VREFN)] of C27 on Front",
+                    "pos": {
+                        "x": 37.8625,
+                        "y": 112.275
+                    },
+                    "uuid": "0651167e-416b-4db3-95be-8aef495633ea"
+                },
+                {
+                    "description": "Pad 2 [Net-(U1-VREFN)] of C28 on Front",
+                    "pos": {
+                        "x": 37.875,
+                        "y": 110.3
+                    },
+                    "uuid": "a44934ca-15d2-4cee-8a16-0234c901c7c8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-VREFN)] of C28 on Front",
+                    "pos": {
+                        "x": 37.875,
+                        "y": 110.3
+                    },
+                    "uuid": "a44934ca-15d2-4cee-8a16-0234c901c7c8"
+                },
+                {
+                    "description": "Track [Net-(U1-VREFN)] on Front, length 0.0600 mm",
+                    "pos": {
+                        "x": 37.85,
+                        "y": 108.19
+                    },
+                    "uuid": "36bd4df7-f2d2-446a-ac9f-a81090e176ba"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U1-VREFN)] of U1 on Front",
+                    "pos": {
+                        "x": 46.2,
+                        "y": 109.8
+                    },
+                    "uuid": "348bd300-02f2-48c4-90ad-62c7dbda4aa3"
+                },
+                {
+                    "description": "Pad 2 [Net-(U1-VREFN)] of C28 on Front",
+                    "pos": {
+                        "x": 37.875,
+                        "y": 110.3
+                    },
+                    "uuid": "a44934ca-15d2-4cee-8a16-0234c901c7c8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 32 [Net-(U1-VREFN)] of U1 on Front",
+                    "pos": {
+                        "x": 49.7,
+                        "y": 109.8
+                    },
+                    "uuid": "103c4ac9-6ee9-4847-8884-ca41aa9efb2f"
+                },
+                {
+                    "description": "Pad 25 [Net-(U1-VREFN)] of U1 on Front",
+                    "pos": {
+                        "x": 46.2,
+                        "y": 109.8
+                    },
+                    "uuid": "348bd300-02f2-48c4-90ad-62c7dbda4aa3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad A5 [Net-(J1-CC1)] of J1",
+                    "pos": {
+                        "x": 17.3,
+                        "y": 42.12
+                    },
+                    "uuid": "c378f2e5-fca3-4335-b196-587a12f43f9f"
+                },
+                {
+                    "description": "Pad 1 [Net-(J1-CC1)] of R_CC1 on Front",
+                    "pos": {
+                        "x": 19.825,
+                        "y": 45.795
+                    },
+                    "uuid": "d2693b06-a8bc-471a-b27c-bb6194f33ed3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad B9 [Net-(U_IP1-USB+)] of J1",
+                    "pos": {
+                        "x": 15.95,
+                        "y": 41.27
+                    },
+                    "uuid": "e0582712-5fff-490a-8914-cbe47a8bfdde"
+                },
+                {
+                    "description": "PTH pad A9 [Net-(U_IP1-USB+)] of J1",
+                    "pos": {
+                        "x": 17.3,
+                        "y": 45.52
+                    },
+                    "uuid": "4104edc0-a97d-446a-afab-ab017e62d911"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad A9 [Net-(U_IP1-USB+)] of J1",
+                    "pos": {
+                        "x": 17.3,
+                        "y": 45.52
+                    },
+                    "uuid": "4104edc0-a97d-446a-afab-ab017e62d911"
+                },
+                {
+                    "description": "Pad 4 [Net-(U_IP1-USB+)] of U_IP1 on Front",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 43.2
+                    },
+                    "uuid": "c0d9e8de-261d-4a41-b2af-ea38e55bfa18"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 5 [Net-(U_IP1-USB_GND)] of U_IP1 on Front",
+                    "pos": {
+                        "x": 25.45,
+                        "y": 43.2
+                    },
+                    "uuid": "0ad6643f-2753-44a4-b691-3020f24d8af5"
+                },
+                {
+                    "description": "Track [Net-(U_IP1-USB_GND)] on Front, length 0.7644 mm",
+                    "pos": {
+                        "x": 17.8405,
+                        "y": 45.8295
+                    },
+                    "uuid": "5c80f09e-be63-4c20-ad32-f14c2351f5fa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad B5 [Net-(J1-CC2)] of J1",
+                    "pos": {
+                        "x": 15.95,
+                        "y": 44.67
+                    },
+                    "uuid": "0fc21904-004d-4c95-844d-c82fe6e86498"
+                },
+                {
+                    "description": "Pad 1 [Net-(J1-CC2)] of R_CC2 on Front",
+                    "pos": {
+                        "x": 23.65,
+                        "y": 45.895
+                    },
+                    "uuid": "af67d2f2-14c0-4de7-89e9-01d1e1122565"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U4-VCAP3)] of C127 on Front",
+                    "pos": {
+                        "x": 82.0125,
+                        "y": 119.1125
+                    },
+                    "uuid": "9f06a830-cf63-4606-94c1-c2a0f547d1a6"
+                },
+                {
+                    "description": "Pad 55 [Net-(U4-VCAP3)] of U4 on Front",
+                    "pos": {
+                        "x": 84.8,
+                        "y": 121.075
+                    },
+                    "uuid": "cf76dd28-410d-4431-aa7d-86ca07010787"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U4-VCAP3)] of U4 on Front",
+                    "pos": {
+                        "x": 84.8,
+                        "y": 121.075
+                    },
+                    "uuid": "cf76dd28-410d-4431-aa7d-86ca07010787"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-VCAP3)] of C131 on Front",
+                    "pos": {
+                        "x": 85.5125,
+                        "y": 119.1125
+                    },
+                    "uuid": "5f004969-a77c-4ee9-876a-9952b7951822"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U5-VCAP1)] of C134 on Front",
+                    "pos": {
+                        "x": 110.375,
+                        "y": 109.98
+                    },
+                    "uuid": "1cc6e1fe-ebfb-4f9c-805b-93670f424940"
+                },
+                {
+                    "description": "Pad 28 [Net-(U5-VCAP1)] of U5 on Front",
+                    "pos": {
+                        "x": 122.9,
+                        "y": 112.6
+                    },
+                    "uuid": "c0676f04-8c6a-4784-8ada-38b5ac4f95b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U5-VREFN)] of C125 on Front",
+                    "pos": {
+                        "x": 110.225,
+                        "y": 102.2
+                    },
+                    "uuid": "0ab2401e-408f-42a7-8e10-5b036b1ad840"
+                },
+                {
+                    "description": "Pad 1 [Net-(U5-VREFN)] of C126 on Front",
+                    "pos": {
+                        "x": 110.275,
+                        "y": 104.08
+                    },
+                    "uuid": "2bbe52fd-4270-415c-abb4-635cbca367ef"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C136 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 105.98
+                    },
+                    "uuid": "f32d9d12-8a60-4b1e-861d-8e77b22e165d"
+                },
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C130 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 108.18
+                    },
+                    "uuid": "1e5c327a-f28d-410c-80d2-75e63ae45ba9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C136 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 105.98
+                    },
+                    "uuid": "f32d9d12-8a60-4b1e-861d-8e77b22e165d"
+                },
+                {
+                    "description": "Pad 1 [Net-(U5-VREFN)] of C126 on Front",
+                    "pos": {
+                        "x": 110.275,
+                        "y": 104.08
+                    },
+                    "uuid": "2bbe52fd-4270-415c-abb4-635cbca367ef"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C130 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 108.18
+                    },
+                    "uuid": "1e5c327a-f28d-410c-80d2-75e63ae45ba9"
+                },
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C134 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 109.98
+                    },
+                    "uuid": "9558916b-b070-4322-bd25-3774573a1333"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U5-VREFN)] of C134 on Front",
+                    "pos": {
+                        "x": 111.925,
+                        "y": 109.98
+                    },
+                    "uuid": "9558916b-b070-4322-bd25-3774573a1333"
+                },
+                {
+                    "description": "Pad 25 [Net-(U5-VREFN)] of U5 on Front",
+                    "pos": {
+                        "x": 121.4,
+                        "y": 112.6
+                    },
+                    "uuid": "9a0ef36b-7a04-4ecb-8af7-a129472138f8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U5-VREFN)] of U5 on Front",
+                    "pos": {
+                        "x": 121.4,
+                        "y": 112.6
+                    },
+                    "uuid": "9a0ef36b-7a04-4ecb-8af7-a129472138f8"
+                },
+                {
+                    "description": "Pad 32 [Net-(U5-VREFN)] of U5 on Front",
+                    "pos": {
+                        "x": 124.9,
+                        "y": 112.6
+                    },
+                    "uuid": "ea770de2-fb1f-4a31-a506-3e09994ebdd6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U1-VCAP4)] of C25 on Front",
+                    "pos": {
+                        "x": 36.3,
+                        "y": 108.19
+                    },
+                    "uuid": "5fe2abd2-5424-4dda-a31e-5463db619b24"
+                },
+                {
+                    "description": "Pad 26 [Net-(U1-VCAP4)] of U1 on Front",
+                    "pos": {
+                        "x": 46.7,
+                        "y": 109.8
+                    },
+                    "uuid": "93bdd744-88cf-40ee-8115-c6899171cdab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [Net-(U4-IN6P)] on Front - Back",
+                    "pos": {
+                        "x": 67.545597,
+                        "y": 129.529376
+                    },
+                    "uuid": "2197aa45-25b4-4a83-8077-707deb7dda57"
+                },
+                {
+                    "description": "Pad 1 [Net-(U4-IN6P)] of C85 on Front",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 128.11
+                    },
+                    "uuid": "5bf19035-604e-46d5-8375-01279e266db1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-VCAP4)] of C78 on Front",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 107.1
+                    },
+                    "uuid": "14770f19-db4b-4409-a37b-df17d2f42c2b"
+                },
+                {
+                    "description": "Pad 26 [Net-(U3-VCAP4)] of U3 on Front",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 113.0
+                    },
+                    "uuid": "bcde7831-c7be-4471-b93d-77bd496ce574"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-VREFN)] of C73 on Front",
+                    "pos": {
+                        "x": 73.125,
+                        "y": 104.7
+                    },
+                    "uuid": "8dcb9ee5-04d7-41d9-89ef-8416e759f4ea"
+                },
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C78 on Front",
+                    "pos": {
+                        "x": 74.55,
+                        "y": 107.1
+                    },
+                    "uuid": "a07496c0-a07d-49ef-93f8-e9bf62f716f8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-VREFN)] of C72 on Front",
+                    "pos": {
+                        "x": 73.325,
+                        "y": 102.7
+                    },
+                    "uuid": "b3aa06bd-0459-44f4-aa77-0e5b2ea3f202"
+                },
+                {
+                    "description": "Pad 1 [Net-(U3-VREFN)] of C73 on Front",
+                    "pos": {
+                        "x": 73.125,
+                        "y": 104.7
+                    },
+                    "uuid": "8dcb9ee5-04d7-41d9-89ef-8416e759f4ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C82 on Front",
+                    "pos": {
+                        "x": 74.5,
+                        "y": 112.1
+                    },
+                    "uuid": "c6f09eb2-8079-45a1-89e2-44b9862d8107"
+                },
+                {
+                    "description": "Pad 25 [Net-(U3-VREFN)] of U3 on Front",
+                    "pos": {
+                        "x": 83.3,
+                        "y": 113.0
+                    },
+                    "uuid": "36885f8e-c36a-4d80-9899-933878ecb06b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C81 on Front",
+                    "pos": {
+                        "x": 74.55,
+                        "y": 109.8
+                    },
+                    "uuid": "d4c8fd8a-fa35-4dff-ba0e-eb929760d896"
+                },
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C82 on Front",
+                    "pos": {
+                        "x": 74.5,
+                        "y": 112.1
+                    },
+                    "uuid": "c6f09eb2-8079-45a1-89e2-44b9862d8107"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C81 on Front",
+                    "pos": {
+                        "x": 74.55,
+                        "y": 109.8
+                    },
+                    "uuid": "d4c8fd8a-fa35-4dff-ba0e-eb929760d896"
+                },
+                {
+                    "description": "Pad 2 [Net-(U3-VREFN)] of C78 on Front",
+                    "pos": {
+                        "x": 74.55,
+                        "y": 107.1
+                    },
+                    "uuid": "a07496c0-a07d-49ef-93f8-e9bf62f716f8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U3-VREFN)] of U3 on Front",
+                    "pos": {
+                        "x": 83.3,
+                        "y": 113.0
+                    },
+                    "uuid": "36885f8e-c36a-4d80-9899-933878ecb06b"
+                },
+                {
+                    "description": "Pad 32 [Net-(U3-VREFN)] of U3 on Front",
+                    "pos": {
+                        "x": 86.8,
+                        "y": 113.0
+                    },
+                    "uuid": "923f1ffb-6c82-400a-a0af-6347d01a2ccd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-VREFN)] of C70 on Front",
+                    "pos": {
+                        "x": 35.225,
+                        "y": 133.31
+                    },
+                    "uuid": "31e64ebe-0324-4438-b141-56fccc5a6b9b"
+                },
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C74 on Front",
+                    "pos": {
+                        "x": 36.825,
+                        "y": 135.21
+                    },
+                    "uuid": "8f7bfcd4-d882-4e10-94eb-9dbd9ad0f148"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-VREFN)] of C69 on Front",
+                    "pos": {
+                        "x": 35.275,
+                        "y": 131.21
+                    },
+                    "uuid": "1eff55f3-35d7-4e01-82a0-9afe54c265d3"
+                },
+                {
+                    "description": "Pad 1 [Net-(U2-VREFN)] of C70 on Front",
+                    "pos": {
+                        "x": 35.225,
+                        "y": 133.31
+                    },
+                    "uuid": "31e64ebe-0324-4438-b141-56fccc5a6b9b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C77 on Front",
+                    "pos": {
+                        "x": 36.775,
+                        "y": 137.21
+                    },
+                    "uuid": "19fe98f7-0109-4da5-b726-a1b20659900e"
+                },
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C79 on Front",
+                    "pos": {
+                        "x": 36.875,
+                        "y": 139.11
+                    },
+                    "uuid": "2f61c7c1-2474-4bff-9a1e-64ec4738f7cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C74 on Front",
+                    "pos": {
+                        "x": 36.825,
+                        "y": 135.21
+                    },
+                    "uuid": "8f7bfcd4-d882-4e10-94eb-9dbd9ad0f148"
+                },
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C77 on Front",
+                    "pos": {
+                        "x": 36.775,
+                        "y": 137.21
+                    },
+                    "uuid": "19fe98f7-0109-4da5-b726-a1b20659900e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-VREFN)] of C74 on Front",
+                    "pos": {
+                        "x": 36.825,
+                        "y": 135.21
+                    },
+                    "uuid": "8f7bfcd4-d882-4e10-94eb-9dbd9ad0f148"
+                },
+                {
+                    "description": "Pad 25 [Net-(U2-VREFN)] of U2 on Front",
+                    "pos": {
+                        "x": 46.35,
+                        "y": 132.6625
+                    },
+                    "uuid": "933569cb-0634-446c-9c21-697504cacc43"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 32 [Net-(U2-VREFN)] of U2 on Front",
+                    "pos": {
+                        "x": 49.85,
+                        "y": 132.6625
+                    },
+                    "uuid": "ffbfebbc-87e1-4738-8077-ede941971b76"
+                },
+                {
+                    "description": "Pad 25 [Net-(U2-VREFN)] of U2 on Front",
+                    "pos": {
+                        "x": 46.35,
+                        "y": 132.6625
+                    },
+                    "uuid": "933569cb-0634-446c-9c21-697504cacc43"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-VCAP4)] of C74 on Front",
+                    "pos": {
+                        "x": 35.275,
+                        "y": 135.21
+                    },
+                    "uuid": "e8e7ffc7-f468-4ac9-b6e7-d1c68ade53ce"
+                },
+                {
+                    "description": "Pad 26 [Net-(U2-VCAP4)] of U2 on Front",
+                    "pos": {
+                        "x": 46.85,
+                        "y": 132.6625
+                    },
+                    "uuid": "24103955-cbfd-474c-bbd4-a2b5f0b8eeb0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-VCAP1)] of C77 on Front",
+                    "pos": {
+                        "x": 35.225,
+                        "y": 137.21
+                    },
+                    "uuid": "e64fc9c8-9dd4-4c60-aea2-5de59262632e"
+                },
+                {
+                    "description": "Pad 28 [Net-(U2-VCAP1)] of U2 on Front",
+                    "pos": {
+                        "x": 47.85,
+                        "y": 132.6625
+                    },
+                    "uuid": "c287908e-4e95-4cdf-811d-b0fae489c5ba"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-VCAP2)] of C79 on Front",
+                    "pos": {
+                        "x": 35.325,
+                        "y": 139.11
+                    },
+                    "uuid": "df24a483-de6d-46ba-8709-d212dc9aa6ff"
+                },
+                {
+                    "description": "Pad 30 [Net-(U2-VCAP2)] of U2 on Front",
+                    "pos": {
+                        "x": 48.85,
+                        "y": 132.6625
+                    },
+                    "uuid": "eaaa1832-84d7-4ce8-9ad7-2cb213ea3626"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U1 on Front",
+                    "pos": {
+                        "x": 51.6125,
+                        "y": 105.8875
+                    },
+                    "uuid": "926af8d7-ac40-4740-a1f1-eb5fb71c60f6"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U2 on Front",
+                    "pos": {
+                        "x": 51.7625,
+                        "y": 128.75
+                    },
+                    "uuid": "693f5057-68c7-4ae9-b5b0-14e64c1dbd1f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U3 on Front",
+                    "pos": {
+                        "x": 88.7125,
+                        "y": 109.0875
+                    },
+                    "uuid": "2aff1b80-f6ec-4ec2-9bbb-26adc65a0ede"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U4 on Front",
+                    "pos": {
+                        "x": 89.7125,
+                        "y": 128.4875
+                    },
+                    "uuid": "7207065a-10c8-4eff-bcd7-00af3cd1befb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U3 on Front",
+                    "pos": {
+                        "x": 88.7125,
+                        "y": 109.0875
+                    },
+                    "uuid": "2aff1b80-f6ec-4ec2-9bbb-26adc65a0ede"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U1 on Front",
+                    "pos": {
+                        "x": 51.6125,
+                        "y": 105.8875
+                    },
+                    "uuid": "926af8d7-ac40-4740-a1f1-eb5fb71c60f6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U6 on Front",
+                    "pos": {
+                        "x": 127.6625,
+                        "y": 130.0
+                    },
+                    "uuid": "8c4bee13-9e36-475e-9948-d321bdad1ba8"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U5 on Front",
+                    "pos": {
+                        "x": 126.8125,
+                        "y": 108.6875
+                    },
+                    "uuid": "3a4044a1-29fc-4764-a52c-ac923393fe0b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U6 on Front",
+                    "pos": {
+                        "x": 127.6625,
+                        "y": 130.0
+                    },
+                    "uuid": "8c4bee13-9e36-475e-9948-d321bdad1ba8"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U4 on Front",
+                    "pos": {
+                        "x": 89.7125,
+                        "y": 128.4875
+                    },
+                    "uuid": "7207065a-10c8-4eff-bcd7-00af3cd1befb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U6 on Front",
+                    "pos": {
+                        "x": 127.6625,
+                        "y": 130.0
+                    },
+                    "uuid": "8c4bee13-9e36-475e-9948-d321bdad1ba8"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U8 on Front",
+                    "pos": {
+                        "x": 167.725,
+                        "y": 128.3
+                    },
+                    "uuid": "6b99ec80-5fc0-44df-a82c-394914440591"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U8 on Front",
+                    "pos": {
+                        "x": 167.725,
+                        "y": 128.3
+                    },
+                    "uuid": "6b99ec80-5fc0-44df-a82c-394914440591"
+                },
+                {
+                    "description": "Pad 37 [/MASTER_CLK] of U7 on Front",
+                    "pos": {
+                        "x": 167.7125,
+                        "y": 109.5875
+                    },
+                    "uuid": "ee25a86b-e6dd-4fc5-b960-a769e224c708"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U2-VCAP3)] of U2 on Front",
+                    "pos": {
+                        "x": 46.85,
+                        "y": 121.3375
+                    },
+                    "uuid": "15ae37a3-de5e-4d70-8939-4e3190d74291"
+                },
+                {
+                    "description": "Pad 2 [Net-(U2-VCAP3)] of C75 on Front",
+                    "pos": {
+                        "x": 47.3,
+                        "y": 118.3
+                    },
+                    "uuid": "29e52b16-554f-498a-bf37-9f69ab974907"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-VCAP3)] of C75 on Front",
+                    "pos": {
+                        "x": 47.3,
+                        "y": 118.3
+                    },
+                    "uuid": "29e52b16-554f-498a-bf37-9f69ab974907"
+                },
+                {
+                    "description": "Pad 2 [Net-(U2-VCAP3)] of C71 on Front",
+                    "pos": {
+                        "x": 43.8,
+                        "y": 118.6
+                    },
+                    "uuid": "8b025b36-a7e6-41da-b8fd-5669b4efa645"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U1-VCAP1)] of C27 on Front",
+                    "pos": {
+                        "x": 36.3125,
+                        "y": 112.275
+                    },
+                    "uuid": "032a89d8-554c-4810-8fee-d7399625bae1"
+                },
+                {
+                    "description": "Pad 28 [Net-(U1-VCAP1)] of U1 on Front",
+                    "pos": {
+                        "x": 47.7,
+                        "y": 109.8
+                    },
+                    "uuid": "371cbe79-2823-49fd-a81e-344bf095bf9b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U1-VCAP2)] of C28 on Front",
+                    "pos": {
+                        "x": 36.325,
+                        "y": 110.3
+                    },
+                    "uuid": "3c076180-d5bb-49b2-a940-557eb8aa4a69"
+                },
+                {
+                    "description": "Pad 30 [Net-(U1-VCAP2)] of U1 on Front",
+                    "pos": {
+                        "x": 48.7,
+                        "y": 109.8
+                    },
+                    "uuid": "aa470248-69cb-4da8-aa93-4c80e3b3f3d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U1-VCAP3)] of U1 on Front",
+                    "pos": {
+                        "x": 46.7,
+                        "y": 98.475
+                    },
+                    "uuid": "696dde05-6167-4424-ab34-28bf7a9362fc"
+                },
+                {
+                    "description": "Pad 2 [Net-(U1-VCAP3)] of C26 on Front",
+                    "pos": {
+                        "x": 50.45,
+                        "y": 95.5325
+                    },
+                    "uuid": "f912cd3a-2f97-4ee1-8f21-dd1e17c3ea74"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-VCAP3)] of C26 on Front",
+                    "pos": {
+                        "x": 50.45,
+                        "y": 95.5325
+                    },
+                    "uuid": "f912cd3a-2f97-4ee1-8f21-dd1e17c3ea74"
+                },
+                {
+                    "description": "Pad 2 [Net-(U1-VCAP3)] of C24 on Front",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 93.8325
+                    },
+                    "uuid": "55578f1d-b642-4352-aea7-40266994b0c9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-BIASINV)] of C19 on Front",
+                    "pos": {
+                        "x": 43.75,
+                        "y": 96.2575
+                    },
+                    "uuid": "16537232-6171-45bb-ac35-1cbd7618df39"
+                },
+                {
+                    "description": "Pad 61 [Net-(U1-BIASINV)] of U1 on Front",
+                    "pos": {
+                        "x": 43.7,
+                        "y": 98.475
+                    },
+                    "uuid": "211ebf0b-239b-4e3e-8fa7-f6fcb7989c25"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-VREFN)] of C211 on Front",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 133.0
+                    },
+                    "uuid": "01497442-348a-400a-9875-3ae55c5d4758"
+                },
+                {
+                    "description": "Pad 1 [Net-(U8-VREFN)] of C212 on Front",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 135.51
+                    },
+                    "uuid": "43286763-76ed-4873-999f-c8e2defce8a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-VREFN)] of C212 on Front",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 135.51
+                    },
+                    "uuid": "43286763-76ed-4873-999f-c8e2defce8a8"
+                },
+                {
+                    "description": "Pad 2 [Net-(U8-VREFN)] of C214 on Front",
+                    "pos": {
+                        "x": 152.15,
+                        "y": 137.69
+                    },
+                    "uuid": "96df4807-5272-42f4-8e7a-9c7bc85442ae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U8-VREFN)] of C216 on Front",
+                    "pos": {
+                        "x": 152.05,
+                        "y": 139.81
+                    },
+                    "uuid": "d74f1fdd-885f-4b6c-b531-af90da5dd6ec"
+                },
+                {
+                    "description": "Pad 2 [Net-(U8-VREFN)] of C214 on Front",
+                    "pos": {
+                        "x": 152.15,
+                        "y": 137.69
+                    },
+                    "uuid": "96df4807-5272-42f4-8e7a-9c7bc85442ae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U8-VREFN)] of C217 on Front",
+                    "pos": {
+                        "x": 152.05,
+                        "y": 141.91
+                    },
+                    "uuid": "8502abf9-b31c-4fc0-8148-acae8de87f45"
+                },
+                {
+                    "description": "Pad 2 [Net-(U8-VREFN)] of C216 on Front",
+                    "pos": {
+                        "x": 152.05,
+                        "y": 139.81
+                    },
+                    "uuid": "d74f1fdd-885f-4b6c-b531-af90da5dd6ec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U8-VREFN)] of U8 on Front",
+                    "pos": {
+                        "x": 162.3125,
+                        "y": 132.2125
+                    },
+                    "uuid": "b6d074aa-9f88-47b9-a2b1-8e2d0c71b9b1"
+                },
+                {
+                    "description": "Pad 1 [Net-(U8-VREFN)] of C211 on Front",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 133.0
+                    },
+                    "uuid": "01497442-348a-400a-9875-3ae55c5d4758"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 32 [Net-(U8-VREFN)] of U8 on Front",
+                    "pos": {
+                        "x": 165.8125,
+                        "y": 132.2125
+                    },
+                    "uuid": "3a536193-fbfc-4022-941d-ce7d4f65195f"
+                },
+                {
+                    "description": "Pad 25 [Net-(U8-VREFN)] of U8 on Front",
+                    "pos": {
+                        "x": 162.3125,
+                        "y": 132.2125
+                    },
+                    "uuid": "b6d074aa-9f88-47b9-a2b1-8e2d0c71b9b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U7-VCAP3)] of C184 on Front",
+                    "pos": {
+                        "x": 160.675,
+                        "y": 99.4
+                    },
+                    "uuid": "5dbac954-edc2-4bc0-81f8-d4f34b9d006e"
+                },
+                {
+                    "description": "Pad 55 [Net-(U7-VCAP3)] of U7 on Front",
+                    "pos": {
+                        "x": 162.8,
+                        "y": 102.175
+                    },
+                    "uuid": "ce2c09e2-0cad-4796-b3b3-2a5658993a5a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U7-VCAP3)] of U7 on Front",
+                    "pos": {
+                        "x": 162.8,
+                        "y": 102.175
+                    },
+                    "uuid": "ce2c09e2-0cad-4796-b3b3-2a5658993a5a"
+                },
+                {
+                    "description": "Pad 2 [Net-(U7-VCAP3)] of C188 on Front",
+                    "pos": {
+                        "x": 164.475,
+                        "y": 99.4
+                    },
+                    "uuid": "932fa255-30a7-42ee-9b3d-3212a9a97b4f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VCAP1)] of C132 on Front",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 143.3
+                    },
+                    "uuid": "333180fb-ac66-4259-81a8-514db92497a7"
+                },
+                {
+                    "description": "Pad 28 [Net-(U4-VCAP1)] of U4 on Front",
+                    "pos": {
+                        "x": 85.8,
+                        "y": 132.4
+                    },
+                    "uuid": "50c87826-d220-4820-a977-3d5a23989480"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VREFN)] of C123 on Front",
+                    "pos": {
+                        "x": 74.425,
+                        "y": 133.7
+                    },
+                    "uuid": "85e3d830-b171-4922-86f5-95728cbea9bb"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C129 on Front",
+                    "pos": {
+                        "x": 76.025,
+                        "y": 135.84
+                    },
+                    "uuid": "0ec9078d-84b4-41c4-b1c4-9957ae696b52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VREFN)] of C124 on Front",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 141.1
+                    },
+                    "uuid": "6068e38b-c33c-4a25-aae2-51d49f062286"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C132 on Front",
+                    "pos": {
+                        "x": 76.075,
+                        "y": 143.3
+                    },
+                    "uuid": "c7c68ce1-1786-4fed-a19f-685fe820da45"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VREFN)] of C124 on Front",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 141.1
+                    },
+                    "uuid": "6068e38b-c33c-4a25-aae2-51d49f062286"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C135 on Front",
+                    "pos": {
+                        "x": 75.925,
+                        "y": 138.6
+                    },
+                    "uuid": "009c83ec-59cf-4c31-b0e0-e9a70a9c3919"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C135 on Front",
+                    "pos": {
+                        "x": 75.925,
+                        "y": 138.6
+                    },
+                    "uuid": "009c83ec-59cf-4c31-b0e0-e9a70a9c3919"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C129 on Front",
+                    "pos": {
+                        "x": 76.025,
+                        "y": 135.84
+                    },
+                    "uuid": "0ec9078d-84b4-41c4-b1c4-9957ae696b52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U4-VREFN)] of C129 on Front",
+                    "pos": {
+                        "x": 76.025,
+                        "y": 135.84
+                    },
+                    "uuid": "0ec9078d-84b4-41c4-b1c4-9957ae696b52"
+                },
+                {
+                    "description": "Pad 25 [Net-(U4-VREFN)] of U4 on Front",
+                    "pos": {
+                        "x": 84.3,
+                        "y": 132.4
+                    },
+                    "uuid": "cc7f95bf-f5d4-4dd1-8a69-ea5288909168"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 32 [Net-(U4-VREFN)] of U4 on Front",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 132.4
+                    },
+                    "uuid": "df49ba3c-6360-41f0-8916-5c470d0670a5"
+                },
+                {
+                    "description": "Pad 25 [Net-(U4-VREFN)] of U4 on Front",
+                    "pos": {
+                        "x": 84.3,
+                        "y": 132.4
+                    },
+                    "uuid": "cc7f95bf-f5d4-4dd1-8a69-ea5288909168"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-VCAP2)] of C82 on Front",
+                    "pos": {
+                        "x": 72.95,
+                        "y": 112.1
+                    },
+                    "uuid": "a90e78e2-4572-4fb1-bb61-2b1c16bd76a7"
+                },
+                {
+                    "description": "Pad 30 [Net-(U3-VCAP2)] of U3 on Front",
+                    "pos": {
+                        "x": 85.8,
+                        "y": 113.0
+                    },
+                    "uuid": "610cf073-b69d-44fe-ac8f-75058c4ed3bc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-VCAP4)] of C214 on Front",
+                    "pos": {
+                        "x": 150.6,
+                        "y": 137.69
+                    },
+                    "uuid": "43b021a1-5059-4011-8eda-35dfb48ab591"
+                },
+                {
+                    "description": "Pad 26 [Net-(U8-VCAP4)] of U8 on Front",
+                    "pos": {
+                        "x": 162.8125,
+                        "y": 132.2125
+                    },
+                    "uuid": "09e51df4-61a0-48de-9787-829a5e8fa20b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-VCAP1)] of C216 on Front",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 139.81
+                    },
+                    "uuid": "375f3a3d-155e-4815-b56f-c764a010a643"
+                },
+                {
+                    "description": "Pad 28 [Net-(U8-VCAP1)] of U8 on Front",
+                    "pos": {
+                        "x": 163.8125,
+                        "y": 132.2125
+                    },
+                    "uuid": "004197d0-a0f9-4cf0-b687-053577cb9228"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-VCAP2)] of C217 on Front",
+                    "pos": {
+                        "x": 150.5,
+                        "y": 141.91
+                    },
+                    "uuid": "5391d6d8-de16-46e5-842b-a675265635e2"
+                },
+                {
+                    "description": "Pad 30 [Net-(U8-VCAP2)] of U8 on Front",
+                    "pos": {
+                        "x": 164.8125,
+                        "y": 132.2125
+                    },
+                    "uuid": "b1a56f51-e59a-4973-9bdc-04c6c16ed6b8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U8-VCAP3)] of C213 on Front",
+                    "pos": {
+                        "x": 160.825,
+                        "y": 118.6
+                    },
+                    "uuid": "382fa465-f2d6-4d4c-901b-3772dbf467c1"
+                },
+                {
+                    "description": "Pad 55 [Net-(U8-VCAP3)] of U8 on Front",
+                    "pos": {
+                        "x": 162.8125,
+                        "y": 120.8875
+                    },
+                    "uuid": "9e044345-b626-44aa-8467-a9ad2dde805c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U8-VCAP3)] of U8 on Front",
+                    "pos": {
+                        "x": 162.8125,
+                        "y": 120.8875
+                    },
+                    "uuid": "9e044345-b626-44aa-8467-a9ad2dde805c"
+                },
+                {
+                    "description": "Pad 2 [Net-(U8-VCAP3)] of C215 on Front",
+                    "pos": {
+                        "x": 164.525,
+                        "y": 118.5
+                    },
+                    "uuid": "1b911a8e-5673-4da9-9c06-2b8c7a9c67fe"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 55 [Net-(U5-VCAP3)] of U5 on Front",
+                    "pos": {
+                        "x": 121.9,
+                        "y": 101.275
+                    },
+                    "uuid": "e9c1b4d3-be2b-4b89-8e16-d2b58c7503c7"
+                },
+                {
+                    "description": "Pad 2 [Net-(U5-VCAP3)] of C133 on Front",
+                    "pos": {
+                        "x": 123.35,
+                        "y": 97.8
+                    },
+                    "uuid": "590d8ec8-2636-47e5-94f4-3caf3df50cea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U5-VCAP3)] of C133 on Front",
+                    "pos": {
+                        "x": 123.35,
+                        "y": 97.8
+                    },
+                    "uuid": "590d8ec8-2636-47e5-94f4-3caf3df50cea"
+                },
+                {
+                    "description": "Pad 2 [Net-(U5-VCAP3)] of C128 on Front",
+                    "pos": {
+                        "x": 119.65,
+                        "y": 97.9
+                    },
+                    "uuid": "2b2fffce-3f2f-4795-861b-66301b1129e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U5-VCAP2)] of C136 on Front",
+                    "pos": {
+                        "x": 110.375,
+                        "y": 105.98
+                    },
+                    "uuid": "e8e982f7-c292-4189-9c5c-c9acb75e5d98"
+                },
+                {
+                    "description": "Pad 30 [Net-(U5-VCAP2)] of U5 on Front",
+                    "pos": {
+                        "x": 123.9,
+                        "y": 112.6
+                    },
+                    "uuid": "7293ecf4-fc09-4acf-bfe9-0fc1344522e2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-VCAP2)] of C190 on Front",
+                    "pos": {
+                        "x": 152.075,
+                        "y": 96.3
+                    },
+                    "uuid": "9f256892-8c6d-4761-8251-c54d6877f01b"
+                },
+                {
+                    "description": "Pad 30 [Net-(U7-VCAP2)] of U7 on Front",
+                    "pos": {
+                        "x": 164.8,
+                        "y": 113.5
+                    },
+                    "uuid": "1f806547-9350-4fd7-99bd-56133e78c349"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-VREFN)] of C180 on Front",
+                    "pos": {
+                        "x": 152.05,
+                        "y": 102.0
+                    },
+                    "uuid": "9e6b2e2a-f7a8-49a7-90a8-cf667b61b94e"
+                },
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C186 on Front",
+                    "pos": {
+                        "x": 153.625,
+                        "y": 105.82
+                    },
+                    "uuid": "eb1de4aa-12ad-49f1-a978-7b707b45fdfd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-VREFN)] of C181 on Front",
+                    "pos": {
+                        "x": 152.275,
+                        "y": 94.3
+                    },
+                    "uuid": "bad50e38-1e7f-4856-ae5d-021f617371bd"
+                },
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C190 on Front",
+                    "pos": {
+                        "x": 153.625,
+                        "y": 96.3
+                    },
+                    "uuid": "b4f7a5af-e591-4579-ae39-810393078c62"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C189 on Front",
+                    "pos": {
+                        "x": 153.525,
+                        "y": 109.4
+                    },
+                    "uuid": "3bf8bbba-16eb-4f93-9299-20674424d1f2"
+                },
+                {
+                    "description": "Pad 25 [Net-(U7-VREFN)] of U7 on Front",
+                    "pos": {
+                        "x": 162.3,
+                        "y": 113.5
+                    },
+                    "uuid": "39091394-4ad1-4c17-b678-54148ffba19f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C190 on Front",
+                    "pos": {
+                        "x": 153.625,
+                        "y": 96.3
+                    },
+                    "uuid": "b4f7a5af-e591-4579-ae39-810393078c62"
+                },
+                {
+                    "description": "Pad 1 [Net-(U7-VREFN)] of C180 on Front",
+                    "pos": {
+                        "x": 152.05,
+                        "y": 102.0
+                    },
+                    "uuid": "9e6b2e2a-f7a8-49a7-90a8-cf667b61b94e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C186 on Front",
+                    "pos": {
+                        "x": 153.625,
+                        "y": 105.82
+                    },
+                    "uuid": "eb1de4aa-12ad-49f1-a978-7b707b45fdfd"
+                },
+                {
+                    "description": "Pad 2 [Net-(U7-VREFN)] of C189 on Front",
+                    "pos": {
+                        "x": 153.525,
+                        "y": 109.4
+                    },
+                    "uuid": "3bf8bbba-16eb-4f93-9299-20674424d1f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U7-VREFN)] of U7 on Front",
+                    "pos": {
+                        "x": 162.3,
+                        "y": 113.5
+                    },
+                    "uuid": "39091394-4ad1-4c17-b678-54148ffba19f"
+                },
+                {
+                    "description": "Pad 32 [Net-(U7-VREFN)] of U7 on Front",
+                    "pos": {
+                        "x": 165.8,
+                        "y": 113.5
+                    },
+                    "uuid": "ae2e049d-5b4b-4416-91ed-af3e6ebc1435"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U6-VREFN)] of C177 on Front",
+                    "pos": {
+                        "x": 111.85,
+                        "y": 128.7
+                    },
+                    "uuid": "6578c952-1139-4d86-9dc4-43c49ae4d9c5"
+                },
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C182 on Front",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 132.6
+                    },
+                    "uuid": "58614cc3-da31-45c1-b007-70b686aeb78b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U6-VREFN)] of C178 on Front",
+                    "pos": {
+                        "x": 112.15,
+                        "y": 136.5
+                    },
+                    "uuid": "27878a46-5e2a-4ba2-8a2a-cb5e3ed4700e"
+                },
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C185 on Front",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 139.1
+                    },
+                    "uuid": "b41f794a-80bf-402a-a27f-3baea9769b64"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C187 on Front",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 134.7
+                    },
+                    "uuid": "6ee2cd2d-5e07-402e-a270-cf9b9bbdac47"
+                },
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C182 on Front",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 132.6
+                    },
+                    "uuid": "58614cc3-da31-45c1-b007-70b686aeb78b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C187 on Front",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 134.7
+                    },
+                    "uuid": "6ee2cd2d-5e07-402e-a270-cf9b9bbdac47"
+                },
+                {
+                    "description": "Pad 1 [Net-(U6-VREFN)] of C178 on Front",
+                    "pos": {
+                        "x": 112.15,
+                        "y": 136.5
+                    },
+                    "uuid": "27878a46-5e2a-4ba2-8a2a-cb5e3ed4700e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U6-VREFN)] of U6 on Front",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.9125
+                    },
+                    "uuid": "3a17d5dc-8eaa-4888-b2ec-60c091283ea5"
+                },
+                {
+                    "description": "Pad 32 [Net-(U6-VREFN)] of U6 on Front",
+                    "pos": {
+                        "x": 125.75,
+                        "y": 133.9125
+                    },
+                    "uuid": "d5e5ee6a-dc70-4f7f-9f12-b128e8d451e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [Net-(U6-VREFN)] of U6 on Front",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.9125
+                    },
+                    "uuid": "3a17d5dc-8eaa-4888-b2ec-60c091283ea5"
+                },
+                {
+                    "description": "Pad 2 [Net-(U6-VREFN)] of C187 on Front",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 134.7
+                    },
+                    "uuid": "6ee2cd2d-5e07-402e-a270-cf9b9bbdac47"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U6-VCAP1)] of C185 on Front",
+                    "pos": {
+                        "x": 112.25,
+                        "y": 139.1
+                    },
+                    "uuid": "6fdb8e77-a574-4d63-b865-8a9a2e3aa24d"
+                },
+                {
+                    "description": "Pad 28 [Net-(U6-VCAP1)] of U6 on Front",
+                    "pos": {
+                        "x": 123.75,
+                        "y": 133.9125
+                    },
+                    "uuid": "39488228-3348-4982-8cba-ca34422d2c35"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-VCAP4)] of C186 on Front",
+                    "pos": {
+                        "x": 152.075,
+                        "y": 105.82
+                    },
+                    "uuid": "59c0c089-9b79-4e4d-abcd-2a0a4523520b"
+                },
+                {
+                    "description": "Pad 26 [Net-(U7-VCAP4)] of U7 on Front",
+                    "pos": {
+                        "x": 162.8,
+                        "y": 113.5
+                    },
+                    "uuid": "cd13fe06-1f92-47af-a984-c9503e414f0a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-VCAP1)] of C189 on Front",
+                    "pos": {
+                        "x": 151.975,
+                        "y": 109.4
+                    },
+                    "uuid": "5fff266b-352c-4eb3-aaf2-e4c34050e6f7"
+                },
+                {
+                    "description": "Pad 28 [Net-(U7-VCAP1)] of U7 on Front",
+                    "pos": {
+                        "x": 163.8,
+                        "y": 113.5
+                    },
+                    "uuid": "526c3f79-c901-4aa0-b491-4a5720904921"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VCAP4)] of C129 on Front",
+                    "pos": {
+                        "x": 74.475,
+                        "y": 135.84
+                    },
+                    "uuid": "fb558702-0be7-4309-9b9c-5757bd2282d3"
+                },
+                {
+                    "description": "Pad 26 [Net-(U4-VCAP4)] of U4 on Front",
+                    "pos": {
+                        "x": 84.8,
+                        "y": 132.4
+                    },
+                    "uuid": "d6dd4dae-275d-432a-bf1a-441423d273e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U6-VCAP4)] of C182 on Front",
+                    "pos": {
+                        "x": 111.95,
+                        "y": 132.6
+                    },
+                    "uuid": "d1f70e5f-94a9-46a7-a1f2-399ff48c26c6"
+                },
+                {
+                    "description": "Pad 26 [Net-(U6-VCAP4)] of U6 on Front",
+                    "pos": {
+                        "x": 122.75,
+                        "y": 133.9125
+                    },
+                    "uuid": "0f509122-37d9-4ba8-a860-bc83c4d9878f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U6-VCAP2)] of C187 on Front",
+                    "pos": {
+                        "x": 111.95,
+                        "y": 134.7
+                    },
+                    "uuid": "bce13fc3-a560-4b12-a3bc-81fe20bff741"
+                },
+                {
+                    "description": "Pad 30 [Net-(U6-VCAP2)] of U6 on Front",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 133.9125
+                    },
+                    "uuid": "74b4ad25-3eab-475a-b606-c581b4c8e3b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U4-VCAP2)] of C135 on Front",
+                    "pos": {
+                        "x": 74.375,
+                        "y": 138.6
+                    },
+                    "uuid": "86c2c445-53b7-4409-836b-32f798d25614"
+                },
+                {
+                    "description": "Pad 30 [Net-(U4-VCAP2)] of U4 on Front",
+                    "pos": {
+                        "x": 86.8,
+                        "y": 132.4
+                    },
+                    "uuid": "b0f9825f-7d50-41d1-97a8-887b2d6b0762"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-VCAP1)] of C81 on Front",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 109.8
+                    },
+                    "uuid": "797b0493-e727-47ed-9f8f-f754db737ffa"
+                },
+                {
+                    "description": "Pad 28 [Net-(U3-VCAP1)] of U3 on Front",
+                    "pos": {
+                        "x": 84.8,
+                        "y": 113.0
+                    },
+                    "uuid": "4fc035e1-1e6c-40d2-ab8d-d88935341e2f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J_BAT1-Pin_1)] of J_BAT1 on Front",
+                    "pos": {
+                        "x": 18.11,
+                        "y": 26.1
+                    },
+                    "uuid": "661e12d8-0fd5-4f72-9714-5939a8df28ab"
+                },
+                {
+                    "description": "Pad 1 [Net-(J_BAT1-Pin_1)] of U_IP1 on Front",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 39.39
+                    },
+                    "uuid": "ca9d2208-55eb-4544-a4f7-d3017ef5943a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J_BAT1-Pin_2)] of U_IP1 on Front",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 40.66
+                    },
+                    "uuid": "3a8380bb-979c-43cf-9d2d-33e6c436276b"
+                },
+                {
+                    "description": "Pad 2 [Net-(J_BAT1-Pin_2)] of J_BAT1 on Front",
+                    "pos": {
+                        "x": 97.49,
+                        "y": 26.1
+                    },
+                    "uuid": "a9ef595c-8f42-446c-bd93-37d1d6b14bd8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U5-VCAP4)] of C130 on Front",
+                    "pos": {
+                        "x": 110.375,
+                        "y": 108.18
+                    },
+                    "uuid": "05ea1e2c-65cc-436c-ae89-40def3347380"
+                },
+                {
+                    "description": "Pad 26 [Net-(U5-VCAP4)] of U5 on Front",
+                    "pos": {
+                        "x": 121.9,
+                        "y": 112.6
+                    },
+                    "uuid": "ea0b2299-4719-4914-9597-44379b71e9c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

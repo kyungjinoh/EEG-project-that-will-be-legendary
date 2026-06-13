@@ -1,0 +1,482 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mils",
+    "date": "2026-06-13T23:25:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3bc37f98-486f-4662-804c-9d3f5ef7a528",
+            "violations": [
+                {
+                    "description": "Symbol 'Conn_01x05' doesn't match copy in library 'Connector_Generic'",
+                    "items": [
+                        {
+                            "description": "Symbol U_IP1 [Conn_01x05]",
+                            "pos": {
+                                "x": 67.5,
+                                "y": 92.0
+                            },
+                            "uuid": "4e775f31-9f5c-4c64-95dc-a3edb40a12ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 24 [VREFP, Bidirectional, Line]",
+                            "pos": {
+                                "x": 73.5,
+                                "y": 57.0
+                            },
+                            "uuid": "bc27c7f3-5144-49fb-b554-18e5169bf8e2"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG03 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 61.0,
+                                "y": 62.5
+                            },
+                            "uuid": "464edc80-d2eb-4c0b-b5ef-72ddd9e2d7d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Global Label 'DVDD'",
+                            "pos": {
+                                "x": 83.0,
+                                "y": 30.0
+                            },
+                            "uuid": "00035e2e-94ff-4de2-a6c2-5c1815d3bf3f"
+                        },
+                        {
+                            "description": "Label 'DVDD'",
+                            "pos": {
+                                "x": 116.5,
+                                "y": 46.0
+                            },
+                            "uuid": "e9642710-95f6-440c-9d98-4d209ff24cd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 46 [GPIO4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 89.0,
+                                "y": 39.5
+                            },
+                            "uuid": "7e460fb1-1e0a-456c-9e05-e1378a22cec5"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 45 [GPIO3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 89.0,
+                                "y": 40.5
+                            },
+                            "uuid": "7e3f3ef8-d189-475a-b02b-005983adab26"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 44 [GPIO2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 89.0,
+                                "y": 41.5
+                            },
+                            "uuid": "fd8699d1-655d-4d84-9d1c-754e1378cc8e"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 42 [GPIO1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 89.0,
+                                "y": 43.5
+                            },
+                            "uuid": "8b9ba6f2-f2b4-48f8-8929-b58e5aa221e3"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Global Label 'AGND'",
+                            "pos": {
+                                "x": 89.0,
+                                "y": 51.5
+                            },
+                            "uuid": "6c7f722e-6e8d-4b88-bc42-285f5070a311"
+                        },
+                        {
+                            "description": "Label 'AGND'",
+                            "pos": {
+                                "x": 172.0,
+                                "y": 68.0
+                            },
+                            "uuid": "5c34933f-ed66-485e-80c5-f81c15f6e6df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 2.00 mils",
+                            "pos": {
+                                "x": 91.0,
+                                "y": 85.0
+                            },
+                            "uuid": "b9d11381-1996-490e-bd65-1f0a496205d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 24 [VREFP, Bidirectional, Line]",
+                            "pos": {
+                                "x": 212.0,
+                                "y": 48.0
+                            },
+                            "uuid": "a99c5225-9369-4555-899e-ae198f543e20"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG03 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 61.0,
+                                "y": 62.5
+                            },
+                            "uuid": "464edc80-d2eb-4c0b-b5ef-72ddd9e2d7d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 24 [VREFP, Bidirectional, Line]",
+                            "pos": {
+                                "x": 214.5,
+                                "y": 104.0
+                            },
+                            "uuid": "2bff5144-647e-4817-aefb-43b87a3f2c90"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG03 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 61.0,
+                                "y": 62.5
+                            },
+                            "uuid": "464edc80-d2eb-4c0b-b5ef-72ddd9e2d7d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Global Label 'DGND'",
+                            "pos": {
+                                "x": 219.5,
+                                "y": 80.0
+                            },
+                            "uuid": "01ece955-75fc-4cce-9623-992cce03fd16"
+                        },
+                        {
+                            "description": "Label 'DGND'",
+                            "pos": {
+                                "x": 124.5,
+                                "y": 62.0
+                            },
+                            "uuid": "e553c089-454f-4c98-a0f8-709d5145e03e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 46 [GPIO4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 227.5,
+                                "y": 30.5
+                            },
+                            "uuid": "f9c62b02-1dce-4cd4-a26b-f2179603b9f1"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 45 [GPIO3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 227.5,
+                                "y": 31.5
+                            },
+                            "uuid": "8618a3b5-843e-41c1-a5e8-ebcc8eb4fdea"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 44 [GPIO2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 227.5,
+                                "y": 32.5
+                            },
+                            "uuid": "23d13c7b-b419-44d7-be3c-3df0666f4a99"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 42 [GPIO1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 227.5,
+                                "y": 34.5
+                            },
+                            "uuid": "de0a86e7-4b86-44dd-a4d1-0b3369e24675"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 46 [GPIO4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 86.5
+                            },
+                            "uuid": "a1f1a9cc-b366-49dd-be2c-c2c6aeefe6bc"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 45 [GPIO3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 87.5
+                            },
+                            "uuid": "773c55f3-06ef-422d-a2dc-a56b26eaacc8"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 44 [GPIO2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 88.5
+                            },
+                            "uuid": "957d85e9-c471-4499-aadd-0859b10218ec"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 42 [GPIO1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 90.5
+                            },
+                            "uuid": "6eb35b81-3ad9-4e6f-9535-51ddf35cc9ab"
+                        },
+                        {
+                            "description": "Symbol PWR_FLAG02 Pin 1 [pwr, Power output, Line]",
+                            "pos": {
+                                "x": 84.0,
+                                "y": 57.5
+                            },
+                            "uuid": "13a5f21e-3350-44f6-ba36-75071c2bc2c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "EEG_BLE.kicad_sch"
+}

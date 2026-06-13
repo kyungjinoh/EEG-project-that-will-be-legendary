@@ -1,0 +1,3 @@
+Plotted to '/Users/kyungjinoh/Downloads/EEG_BLE-master/KiCad/Project/EEG_BLE.pdf'.
+
+Info: Done.
