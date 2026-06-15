@@ -220,7 +220,9 @@
         0.254,
         0.4,
         0.508,
-        0.762
+        0.762,
+        1.0,
+        1.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -663,7 +665,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -785,7 +787,7 @@
         "uuid": "3bc37f98-486f-4662-804c-9d3f5ef7a528"
       }
     ],
-    "used_designators": "R17,R50,C19,C83,V1-2,#GND1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
